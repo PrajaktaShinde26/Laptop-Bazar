@@ -1,0 +1,41 @@
+<html>
+<head>
+	<script src="validate.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="form_style.css">
+	<title>Simple Form</title>
+	
+</head>
+<body style="background-color:pink">
+
+<h2>Registration Form : </h2>
+<form><br>
+<fieldset>
+<lagend></lagend>
+<br>Name:<input type="text" name="fname" placeholder="First Name" required>
+	<input type="text" name="lname" placeholder="Last Name" required>
+	<br>
+<br>Password:<input type="password" name="Password" placeholder="Password"required><br>
+<br>Confim Password:<input type="password" name="Confirm Password" placeholder="Password" required><br>
+<br>Date_Of_Birth:<input type="date" name="Date Of Birth"><br>
+<br>Mobile_No:<input type="text" name="Mobile_No" placeholder="Monile No."><br>
+<br>Email-ID:<input type="text" name="Email ID" placeholder="Email ID" required><br>
+
+<br>Gender:<input type="radio" name="Gender" value="Male">Male
+	<input type="radio" name="Gender" value="Female">Female<br>
+<br>Hobbies:<input type="checkbox" name="playing" value="on">Playing
+	<input type="checkbox" name="dancing" value="on">Dancing
+	<input type="checkbox" name="reading" value="on">Reading<br>
+<br>state:<select name="select state">
+    	<option value="MH">Maharashtra</option>
+    	<option value="MP">Madhya Pradesh</option>
+    	<option value="KL">Kerala</option>
+    	<option value="GJ">Gujrat</option>    
+ 	</select><br>
+<br>
+<br>pin:<input type="Number" name="pin" placeholder="Pin" required><br>
+<br>submit:<left><input type="submit" name="submit" value="submit" onclick="valid()"></left><br>
+</fieldset>
+</form>
+<a href="index.html">Home Page</a>
+</body>
+</html>
